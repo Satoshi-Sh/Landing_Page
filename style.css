@@ -130,7 +130,6 @@ h3 {
     flex-direction:column;
     justify-content:center;
     align-items:center;
-
 }
 
 
@@ -146,4 +145,61 @@ h3 {
 
 .ref-div {
     margin-left:300px;
+}
+
+.action-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+}
+
+
+.action-bubble {
+    display:flex;
+    flex-direction:row;
+    background-color:#3882F6;
+    width:75%;
+    height:auto;
+    justify-content:center;
+    align-items:center;
+}
+
+.text-section{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#F9FAF8;
+}
+
+.text-section p {
+    font-size:14px;
+    margin-top:-10px;
+    margin-left:10px;
+}
+
+.button-section{
+    flex:0 0 200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.button-section button {
+    width:60%;
+    border: 1px solid whitesmoke;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align:center;
+    color:whitesmoke;
+    bottom:0;
+    width:100%;
+    font-size:12px;
+    font-weight:lighter;
+    padding:10px;
 }
