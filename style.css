@@ -82,7 +82,7 @@ h2 {
 
 button{
     background-color:#3882F6;
-    width:30%;
+    width:20%;
     border-radius:25px;
     color:#F9FAF8
 }
@@ -122,4 +122,28 @@ h3 {
     font-size: 14px;
     text-align:center;
     font-weight:0.2;
+}
+
+.quotation-section{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.quote{
+    font-size:36px;
+    font-style:italic;
+    font-weight:lighter;
+    color:#1F2937;
+    width:50%;
+    flex:1;
+}
+
+.ref-div {
+    margin-left:300px;
 }
